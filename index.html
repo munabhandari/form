@@ -1,29 +1,104 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+    
     <body>
       <form>
         <fieldset>
           <legend>This is my form</legend>
-          <label for="email">Email</label>
-          <input name="email" id="email" type="email"><br><br>
-          <label for="password">Password</label>
-          <input name="password" id="password" type="password"><br><br>
-          <label for="confirm_password">Confirm Password</label>
-          <input name="confirm_password" id="confirm_password" type="password"><br><br>
-          <label for="upload_your_picture">upload your picture</label>
-          <input type="text" id="upload_your_picture" type="file"><input type=file><br><br>
-          <input type="radio" name="gender" value="gender">gender
-          <input type="radio" name="gender" value="male">male
-          <input type="radio" name="gender" value="female">female
           <div class="row">
-            <label for="select country"select country</label>
-              <input type="text" id=select country type=
-          
+            <div class="left-comp">
+              <label for="email">Email</label>
+            </div>
+            <div class="right-comp">
+              <input name="email" id="email" type="email">
+            </div>
           </div>
           
-          
-          
+          <div class="row">
+            <div class="left-comp">
+              <label for="password">Password</label>
+            </div>
+            <div class="right-comp">
+                <input name="password" id="password" type="password">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="left-comp">
+                <label for="confirm_password">Confirm Password</label>
+            </div>
+            <div class="right-comp">
+              <input name="confirm_password" id="confirm_password" type="password">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="left-comp">
+              <label for="upload_your_picture">upload your picture</label>
+            </div>
+            <div class="right-comp">
+              <input id="upload_your_picture" type="file">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="left-comp">
+              Gender:
+            </div>
+            <div class="right-comp">
+              <input type="radio" name="gender" value="male" id="male">
+              <label for="male">Male</label>
+              <input type="radio" name="gender" value="female" id="female">
+              <label for="female">Female</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="left-comp">
+              select country:
+            </div>
+            <div class="right-comp">
+              <select name="" id="">
+                <option value="uk">United Kingdom</option>
+                <option value="nepal">India</option>
+                <option value="nepal">Pakistan</option>
+                <option value="nepal">Nepal</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="left-comp">
+              Hobby: 
+            </div>
+            <div class="right-comp">
+              <label for="cricket">Cricket</label>
+              <input type="checkbox" name="cricket" id="cricket">
+              <label for="football">Football</label>
+              <input type="checkbox" name="Football" id="football">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="left-comp">
+              <label for="address">Address</label> 
+            </div>
+            <div class="right-comp">
+              <textarea name="address" id="address" cols="40" rows="10"></textarea>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="left-comp">
+              
+            </div>
+            <div class="right-comp">
+              <input type="submit" value="Submit">
+            </div>
+          </div>
       </fieldset>
       </form>
     </body>
