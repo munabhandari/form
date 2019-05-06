@@ -1,0 +1,29 @@
+.left-comp{
+  float: left;
+  text-align: right;
+  width: 30%;
+}
+
+.row{
+  margin: 10px;
+  display: flow-root;
+}
+.right-comp{
+  float: right;
+  text-align: left;
+  width: 68%;
+  margin-left: 10px;
+}
+
+fieldset{
+  border: 1px solid rgb(102, 13, 13);
+}
+
+legend{
+  background-color:  rgb(241, 226, 139);;
+}
+
+textarea, input{
+  background: rgb(241, 226, 139);
+  border: 1px solid rgb(223, 159, 40);
+}
